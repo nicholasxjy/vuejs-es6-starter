@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title><%= title %></title>
+  </head>
+  <body>
+    <div id="root">
+      <h1>Hello App!</h1>
+      <p>
+        <a v-link="{path: '/foo'}">Go to foo</a>
+        <a v-link="{path: '/bar'}">Go to bar</a>
+      </p>
+    </div>
+    <router-view></router-view>
+  </body>
+  <script src="/dist/bundle.js"></script>
+</html>
